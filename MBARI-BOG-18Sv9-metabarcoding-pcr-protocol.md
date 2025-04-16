@@ -60,7 +60,7 @@ pcr_analysis_software: # not provided
 pcr_method_additional: # not provided
 ---
 
-# Environmental DNA (eDNA) 18S metabarcoding Illumina MiSeq NGS PCR Protocol V.3
+# Environmental DNA (eDNA) 18S metabarcoding PCR Protocol V.3
 
 ## PROTOCOL INFORMATION
 
