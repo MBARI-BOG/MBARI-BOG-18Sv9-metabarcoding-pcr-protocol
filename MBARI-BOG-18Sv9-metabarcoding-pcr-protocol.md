@@ -81,10 +81,11 @@ pcr_method_additional: # not provided
 - Visit https://orcid.org/ to register for an ORCID.
 - Date is the date the author first worked on the protocol.
 
-| PREPARED BY | AFFILIATION | ORCID | DATE |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
-| Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
+| PREPARED BY  | AFFILIATION  | ORCID        | DATE       |
+| ------------ | ------------ | ------------ | ---------- |
+| Jacoby Baker | MBARI | 0000-0002-0673-7535 | 2023-11-07 |
+| N. Kobun Truelove | MBARI | 0000-0002-2236-1849 | 2023-11-07 |
+| Kathleen J. Pitz | MBARI | 0000-0002-4931-8592 | 2023-11-07 |
 
 ### Related Protocols
 
