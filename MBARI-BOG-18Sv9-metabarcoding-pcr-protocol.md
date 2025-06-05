@@ -33,8 +33,8 @@ targetTaxonomicScope: # Prokaryotes, including Bacteria and Archaea
 target_gene: # 16S rRNA
 target_subfragment: # V4-V5
 ampliconSize: # 411
-pcr_primer_forward: # GTGYCAGCMGCCGCGGTAA
-pcr_primer_reverse: # CCGYCAATTYMTTTRAGTTT
+pcr_primer_forward: # GTACACACCGCCCGTC
+pcr_primer_reverse: # TGATCCTTCTGCAGGTTCACCTAC
 pcr_primer_name_forward: # 515F-Y
 pcr_primer_name_reverse: # 926R
 pcr_primer_reference_forward: # 10.1111/1462-2920.13023
@@ -194,10 +194,10 @@ Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Awa
 
 **Primers**: PCR primer sequences
 
-| PCR Primer Name | Direction | Sequence (5’ -> 3’)|
-| ----- | ----- | ----- |
-| Euk1391F | forward | **ACACTGACGACATGGTTCTACA** |
-| EukBr | reverse | **TACGGAGCAGAGACTTGGTCT** |
+| PCR Primer Name | Direction | Sequence (5’ -> 3’)| Sequence (5’ -> 3’) with Fluidigm Adapters | Fluidigm Adapter |
+| ----- | ----- | ----- | ----- | ----- |
+| Euk1391F | forward | **GTACACACCGCCCGTC** | ACACTGACGACATGGTTCTACA**GTACACACCGCCCGTC** | CS1 |
+| EukBr | reverse | **TGATCCTTCTGCAGGTTCACCTAC** | TACGGTAGCAGAGACTTGGTCT**TGATCCTTCTGCAGGTTCACCTAC** | CS2 |
 
 
 
@@ -224,21 +224,12 @@ Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Awa
 
 1. PCR reactions were run in single 75ul reactions for each sample using 12-basepair Golay barcoded reverse primers (Amaral-Zettler et al., 2009) with Fluidigm adapters CS1 & CS2.
 
-> Primer Sequences with Fluidigm adapter sequences in the 5’ to 3’ direction
->
-> - 18S Forward PCR sequence (**Euk1391F**): 
-   > **ACACTGACGACATGGTTCTACA**GTACACACCGCCCGTC
-> - 18S Reverse PCR sequence (**EukBr**): 
-   > **TACGGAGCAGAGACTTGGTCT**TGATCCTTCTGCAGGTTCACCTAC
-
-
-
-3. PCR reactions were run in 96-well plates with a NTC run in singleton for each plate. PCR cycling parameters use a normal ramp speed.
+2. PCR reactions were run in 96-well plates with a NTC run in singleton for each plate. PCR cycling parameters use a normal ramp speed.
 
 
 ### Quality Control
 
-6. After PCR amplification of the marker region, PCR products were run through an agarose gel to confirm the presence of target bands and absense of non-specific amplification across environmental samples as well as the absence of amplification in no-template controls (NTCs).
+3. After PCR amplification of the marker region, PCR products were run through an agarose gel to confirm the presence of target bands and absense of non-specific amplification across environmental samples as well as the absence of amplification in no-template controls (NTCs).
 
 
 
