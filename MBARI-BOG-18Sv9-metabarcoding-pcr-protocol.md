@@ -96,7 +96,7 @@ pcr_method_additional: # not provided
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+| 18S V9 PCR V.2  | dx.doi.org/10.17504/protocols.io.36wgq3d8olk5/v2 | 2 | 2023-09-26   | Internal      |
 | Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
 
 ### Protocol Revision Record
@@ -200,7 +200,6 @@ Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Awa
 | EukBr | reverse | **TGATCCTTCTGCAGGTTCACCTAC** | TACGGTAGCAGAGACTTGGTCT**TGATCCTTCTGCAGGTTCACCTAC** | CS2 |
 
 
-
 **Reaction Mixture**: PCR reagents, volumes, initial and final concentrations
 
 | Reagent | Volume | Initial Concentration | final concentration|
@@ -222,9 +221,9 @@ Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Awa
 | Final Extension | 72° C | 10 minutes | 1 |
 | Hold | 4° C | ∞ |  |
 
-1. PCR reactions were run in single 75ul reactions for each sample using 12-basepair Golay barcoded reverse primers (Amaral-Zettler et al., 2009) with Fluidigm adapters CS1 & CS2.
+1. PCR reactions were run in single 75ul reactions for each sample using 12-basepair Golay barcoded reverse primers (Amaral-Zettler et al. (2009), Stoek et al. (2010), Earth Microbiome Project) with Fluidigm adapters CS1 & CS2.
 
-2. PCR reactions were run in 96-well plates with a NTC run in singleton for each plate. PCR cycling parameters use a normal ramp speed.
+2. PCR reactions were run in 96-well plates with a NTC and positive control run in singleton for each plate. PCR cycling parameters use a normal ramp speed.
 
 
 ### Quality Control
@@ -235,17 +234,17 @@ Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Awa
 
 #### Positive Control
 
-Please include information about any positive controls, used in every PCR run to verify success of the PCR reaction. This should include a description of the sequence(s), the concentration and volume added, and the reference sequence(s).
+An internal positive control consisting of extracted DNA from a freshwater aquarium sample was run in singleton for each 96-well PCR plate.
 
 #### Negative Control
 
-Please include information about any negative controls, such as PCR-grade water used as a no template control (NTC) when setting up each PCR plate.
+A NTC consisting of nuclease-free water was run in singleton for each 96-well PCR plate.
 
 ### PCR Clean-up
 
-7. PCR products were purified and size selected using the Agencourt AMPure XP bead system (Beckman Coulter, USA). 
-8. A second agarose gel was run to confirm primer removal and retention of target amplicons after purification. 
-9. Purified products were then quantified using Quant-It Picogreen dsDNA Assay (Life Technologies) on an fmax Molecular Devices Fluorometer with SoftMaxPro v1.3.1
+4. PCR products were purified and size selected using the Agencourt AMPure XP bead system (Beckman Coulter, USA). 
+5. A second agarose gel was run to confirm primer removal and retention of target amplicons after purification. 
+6. Purified products were then quantified using Quant-It Picogreen dsDNA Assay (Life Technologies) on an fmax Molecular Devices Fluorometer with SoftMaxPro v1.3.1
 
 ### Basic Troubleshooting Guide
 
@@ -254,8 +253,11 @@ Please include information about any negative controls, such as PCR-grade water 
 
 ## REFERENCES
 
-- Insert all references cited in the document.
-- Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1.
+Amaral-Zettler LA, McCliment EA, Ducklow HW, Huse SM (2009) A Method for Studying Protistan Diversity Using Massively Parallel Sequencing of V9 Hypervariable Regions of Small-Subunit Ribosomal RNA Genes. PLOS ONE 4(7): e6372. https://doi.org/10.1371/journal.pone.0006372
+
+Stoeck, T., Bass, D., Nebel, M., Christen, R., Jones, M. D. M., Breiner, H.-W., & Richards, T. A. (2010). Multiple marker parallel tag environmental DNA sequencing reveals a highly complex eukaryotic community in marine anoxic water. Molecular Ecology, 19 Suppl 1, 21–31. https://doi.org/10.1111/j.1365-294X.2009.04480.x
+
+Caporaso, J. G., Lauber, C. L., Walters, W. A., Berg-Lyons, D., Huntley, J., Fierer, N., Owens, S. M., Betley, J., Fraser, L., Bauer, M., Gormley, N., Gilbert, J. A., Smith, G., & Knight, R. (2012). Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms. ISME J 6, 1621–1624. http://doi.org/10.1038/ismej.2012.8
 
 ## APPENDIX A: DATASHEETS
 
