@@ -97,7 +97,7 @@ pcr_method_additional: # not provided
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
 | 18S V9 PCR V.2  | dx.doi.org/10.17504/protocols.io.36wgq3d8olk5/v2 | 2 | 2023-09-26   | Internal      |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+| NOAA/AOML PCR Protocol 18S rRNA V9 amaralzettler  | https://github.com/aomlomics/protocol-pcr-ssu18sv9-amaralzettler | 1 | 2024-08-22   | External      |
 
 ### Protocol Revision Record
 
@@ -113,14 +113,17 @@ pcr_method_additional: # not provided
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| MBARI  | Monterey Bay Aquarium Research Institute  |
+| NTC  | No template controll  |
+| PCR  | Polymerase chain reaction  |
+| eDNA  | environmental DNA |
+| EtOH  | Ethanol  |
 
 ### Glossary
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| No Template Control  | A type of negative control during PCR to confirm there is no contamination during the PCR process. Normally nuclease-free water is run in place of DNA on a PCR.  |
 | Content Cell  | Content Cell  |
 
 ## BACKGROUND
@@ -138,45 +141,72 @@ This method is applied because of its ability to amplify the target region (18S 
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-- ocean [ENVO:00000015]
-- freshwater lake [ENVO:00000021]
+This protocol can be used to amplify the 18S rRNA marker gene region of any eDNA sample.
 
 ## PERSONNEL REQUIRED
 
-1 technician
+One person with molecular biology experience.
 
 ### Safety
 
->Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
+There are no hazardous chemicals or materials involved in this protocol. Standard lab safety techniques should still be used such as wearing PPE to avoid skin or eye contact.
 
 ### Training Requirements
 
->Specify technical training required for the good execution of the procedure.
+Basic molecular biology training is sufficient for this protocol including sterile technique, pipetting small volumes and programming/running PCR thermal cyclers.
 
 ### Time Needed to Execute the Procedure
 
->Specify how much time is necessary to execute the procedure.
+Protocol takes about 4 hours (240 minutes) including thermal cycler run time.
 
 ## EQUIPMENT
 
-- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
-- Description: E.g., "filter".
-- Product Name and Model: Provide the official name of the product.
-- Manufacturer: Provide the name of the manufacturer of the product.
-- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
-- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
+For 96-well Plate:
 
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| 100-1000 ul Pipette | Eppendorf Research Plus Adjustable-Volume Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul Pipette | Eppendorf Research Plus Adjustable-Volume Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
+| 0.1-2.5 ul Pipette | Eppendorf Research Plus Adjustable-Volume Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul 8-Channel Pipette | Eppendorf Research Plus 8 Channel Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
+| 0.5-10 uL 8-Channel Pipette |Eppendorf Research Plus 8 Channel Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
+| Thermal cycler | Mastercycler Nexus Thermal Cycler | Eppendorf | 1 | Can be substituted with generic |
+| Microwave | Generic Microwave | Generic Brand | 1 | |
+| Flask | 500 mL Flask | Generic Brand | 1 | Used for mixing agarose gel solution |
+| 1-L Glass Container | 1 L Glass Container | Generic Brand | 1 | Used for storing 1x TBE buffer |
+| Gel Tray & Box | Gel Electrophoresis Box and Tray | Generic Brand | 1 | Can be substituted with generic |
+| Gel Combs | Gel Electrophoresis Combs | Generic Brand | 2 | Can be substituted with generic |
 | **Consumable equipment** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Gloves | Nitrile Gloves, Exam Grade, Powder-free | ULINE | 1 | (box) Can be substituted with generic |
+| Kim Wipes | KimWipe Delicate Task Wipers | KimTech | 1 | (box) Can be substituted with generic |
+| 96-well PCR Plate | | Armadillo PCR Plate, 96-well, clear, clear wells | ThermoFisher | 3 | |
+| PCR Plate Seal | AlumaSeal II Sealing Foils for PCR and Cold Storage | VWR | 2 | Can be substituted with generic, can use tightly-fitted strip caps in place of seal |
+| 1000µL Filter Tips | OT-2 Filter Tips, 1000µL | Opentrons | 1 | (box) Can be substituted with generic |
+| 200µL Filter Tips | OT-2 Filter Tips, 200µL | Opentrons | 2 | (boxes) Can be substituted with generic |
+| 10 ul Filter tips | TipOne Pipette Tips, 10 uL | TipOne | 2 | (boxes) Can be substituted with generic |
+| AmpliTaq Gold PCR Mix | AmpliTaq Gold DNA Polymerase 5 mL | ThermoFisher | 1.2 | (mL) |
+| Molecular water | Invitrogen RT-PCR Grade Water | Fisher Scientific | 0.912 | (mL) |
+| Forward Primer - 1391F | 18S 1391F Fluidigm Primer | IDT | 105 | (ul (10uM)) Primer must be diluted from 100uM stocks to 10uM |
+| Reverse Primer - EukBR | 18S EukBR Fluidigm Primer | IDT | 105 | (ul (10uM)) Primer must be diluted from 100uM stocks to 10uM |
+| TBE Buffer (10x) | TBE Buffer 10X Solution, Molecular Biology Grade, UltraPure | Thermo Scientific | 100 | (uL) |
+| Agarose | Agarose LE, Molecular Biology Grade, UltraPure | Thermo Scientific | 4 | (g) |
+| SYBR Safe | SYBR Safe DNA Gel Stain | Invitrogen | 20 | (uL) Light sensitive - do not expose to light |
+| Gel stain loading dye | DNA Gel Loading Dye (6x) | Thermo Scientific | 480 | (ul per plate) |
+| 100bp DNA Ladder | Generuler 100 bp DNA Ladder | Thermo Scientific | 6 | (ul per lane on gel) |
+| Parafilm | Parafilm M Lab Film | Generic | 1 | (roll) Can substitute with generic brand |
 | **Chemicals** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| RNase AWAY | RNase AWAY Surface Decontaminant | ThermoFisher Scientific | 1 | (bottle) Used to sterilize lab surfaces and equipment |
+| EtOH | Ethanol | Generic Brand | 1 | (wash bottle) Must be molecular grade ethanol |
+| DI water | Deionized water | Generic | 900 | (mL) |
+| (OPTIONAL) Clean-Up Protocol |
+| AMPure XP Beads | AMPure XP Bead-Based Reagent | Beckman Coulter | 1 | (kit) |
+| 96-well magnetic plate | MagDTR 96-Well Magnetic Separator | Edge Biosystems Inc | 1 | Can be substituted with generic brand |
+| **(OPTIONAL) Qubit** |
+| Qubit Reagents | Qubit dsDNA Quantification Assay Kit | Invitrogen | 1 | (kit) |
+| Clear Qubit Assay tubes | 0.5 mL thin-walled, polypropylene tubes | Invitrogen | 98 | Must be correct tubes to allow for fluorometer to read concentration |
+
+
 
 ## STANDARD OPERATING PROCEDURE
 
