@@ -266,7 +266,7 @@ A NTC consisting of nuclease-free water was run in singleton for each 96-well PC
 
 ### PCR Clean-up
 
-4. PCR products were purified and size selected using the Agencourt AMPure XP bead system (Beckman Coulter, USA) with a bead concdntration of 1.2X. 
+4. PCR products were purified and size selected using the Agencourt AMPure XP bead system (Beckman Coulter, USA) with a bead concentratioin of 1.2X (for 18S amplicons). 
 5. A second agarose gel was run to confirm primer removal and retention of target amplicons after purification. 
 6. A subset of purified products were then quantified using Quant-It Picogreen dsDNA Assay (Life Technologies) on an fmax Molecular Devices Fluorometer with SoftMaxPro v1.3.1 
 
