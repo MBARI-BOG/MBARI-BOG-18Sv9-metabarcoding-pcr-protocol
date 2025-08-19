@@ -43,21 +43,21 @@ pcr_primer_vol_forward: 3.0
 pcr_primer_vol_reverse: 3.0
 pcr_primer_conc_forward: 5
 pcr_primer_conc_reverse: 5
-probeReporter: # not applicable
-probeQuencher: # not applicable
-probe_seq: # not applicable
-probe_ref: # not applicable
-probe_conc: # not applicable
+probeReporter: not applicable
+probeQuencher: not applicable
+probe_seq: not applicable
+probe_ref: not applicable
+probe_conc: not applicable
 commercial_mm: AmpliTaq Gold™ Fast PCR Master Mix
 custom_mm: PCR reactions were run in 75 uL reaction volumes, with 3.0 uL of DNA, 37.5 uL of AmpliTaq Gold, 28.5 uL of water, and 3.0 uL of each primer (5 uM)
 pcr_dna_vol: 3.0
 pcr_rep: 1
 nucl_acid_amp: # https://doi.org/10.1111/1462-2920.13023
-pcr_cond: # initial denaturation:95_10;denaturation:94_0.75;annealing:57_0.50;elongation:68_1.5;final elongation:72_10;35
+pcr_cond: initial denaturation:95_10;denaturation:94_0.75;annealing:57_0.50;elongation:68_1.5;final elongation:72_10;35
 annealingTemp: 57
 pcr_cycles: 35
-pcr_analysis_software: # not provided
-pcr_method_additional: # not provided
+pcr_analysis_software: not provided
+pcr_method_additional: not provided
 ---
 
 # Environmental DNA (eDNA) 18S metabarcoding PCR Protocol V.3
