@@ -193,7 +193,7 @@ For 96-well Plate:
 | RNase AWAY | RNase AWAY Surface Decontaminant | ThermoFisher Scientific | 1 | (bottle) Used to sterilize lab surfaces and equipment |
 | EtOH | Ethanol | Generic Brand | 1 | (wash bottle) Must be molecular grade ethanol |
 | DI water | Deionized water | Generic | 900 | (mL) |
-| (OPTIONAL) Clean-Up Protocol |
+| **Clean-Up Protocol** |
 | AMPure XP Beads | AMPure XP Bead-Based Reagent | Beckman Coulter | 1 | (kit) |
 | 96-well magnetic plate | MagDTR 96-Well Magnetic Separator | Edge Biosystems Inc | 1 | Can be substituted with generic brand |
 | **(OPTIONAL) Qubit** |
