@@ -8,7 +8,7 @@ geographic_location: Monterey Bay [GAZ:00002509]
 broad_scale_environmental_context: marine biome [ENVO:00000447]
 local_environmental_context: upwelling [ENVO:01000005]
 environmental_medium: sea water [ENVO:00002149]
-target: 16S [NCIT:C105370]
+target: 18S [NCIT:C48172]
 creator: # names separated by commas
 materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989], agarose gel electrophoresis system [OBI:0001134]
 skills_required: sterile technique, pipetting skills, standard molecular technique
@@ -24,38 +24,38 @@ maturity level: mature
 
 # FAIRe terms
 pcr_0_1: # 1
-thermocycler: # name of thermocycler
-amplificationReactionVolume: # 25
+thermocycler: Bio-Rad T100
+amplificationReactionVolume: 75
 assay_name: # ssu16sv4v5_emp
 assay_validation: # not provided
-targetTaxonomicAssay: # 16S rRNA gene sequencing targeting the V4-V5 region using primers 515F and 926R
-targetTaxonomicScope: # Prokaryotes, including Bacteria and Archaea
-target_gene: # 16S rRNA
-target_subfragment: # V4-V5
-ampliconSize: # 411
-pcr_primer_forward: # GTACACACCGCCCGTC
-pcr_primer_reverse: # TGATCCTTCTGCAGGTTCACCTAC
-pcr_primer_name_forward: # 515F-Y
-pcr_primer_name_reverse: # 926R
-pcr_primer_reference_forward: # 10.1111/1462-2920.13023
-pcr_primer_reference_reverse: # 10.1111/1462-2920.13023
-pcr_primer_vol_forward: # 1.0
-pcr_primer_vol_reverse: # 1.0
-pcr_primer_conc_forward: # 10
-pcr_primer_conc_reverse: # 10
+targetTaxonomicAssay: 18S rRNA gene sequencing targeting the V9 region using primers 1391F and EukBr
+targetTaxonomicScope: Eukaryotes with a focus on microbial eukaryotes
+target_gene: 18S rRNA
+target_subfragment: V9
+ampliconSize: ~260 +/- 50 bp
+pcr_primer_forward: GTACACACCGCCCGTC
+pcr_primer_reverse: TGATCCTTCTGCAGGTTCACCTAC
+pcr_primer_name_forward: 1391F
+pcr_primer_name_reverse: EukBr
+pcr_primer_reference_forward: 10.1371/journal.pone.0006372
+pcr_primer_reference_reverse: 10.1371/journal.pone.0006372
+pcr_primer_vol_forward: 3.0
+pcr_primer_vol_reverse: 3.0
+pcr_primer_conc_forward: 5
+pcr_primer_conc_reverse: 5
 probeReporter: # not applicable
 probeQuencher: # not applicable
 probe_seq: # not applicable
 probe_ref: # not applicable
 probe_conc: # not applicable
-commercial_mm: # AmpliTaq Gold 360 Master Mix
-custom_mm: # PCR reactions were run in 25 uL reaction volumes, with 1.0 uL of DNA, 12.5 uL of AmpliTaq Gold, 9.5 uL of water, and 1.0 uL of each primer (10 uM)
-pcr_dna_vol: # 1.0
-pcr_rep: # 1
+commercial_mm: AmpliTaq Gold™ Fast PCR Master Mix
+custom_mm: PCR reactions were run in 75 uL reaction volumes, with 3.0 uL of DNA, 37.5 uL of AmpliTaq Gold, 28.5 uL of water, and 3.0 uL of each primer (5 uM)
+pcr_dna_vol: 3.0
+pcr_rep: 1
 nucl_acid_amp: # https://doi.org/10.1111/1462-2920.13023
-pcr_cond: # initial denaturation:95_3;denaturation:95_0.75;annealing:50_0.75;elongation:72_1.5;final elongation:72_10;30
-annealingTemp: # 50
-pcr_cycles: # 30
+pcr_cond: # initial denaturation:95_10;denaturation:94_0.75;annealing:57_0.50;elongation:68_1.5;final elongation:72_10;35
+annealingTemp: 57
+pcr_cycles: 35
 pcr_analysis_software: # not provided
 pcr_method_additional: # not provided
 ---
@@ -114,7 +114,7 @@ pcr_method_additional: # not provided
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
 | MBARI  | Monterey Bay Aquarium Research Institute  |
-| NTC  | No template controll  |
+| NTC  | No template control  |
 | PCR  | Polymerase chain reaction  |
 | eDNA  | environmental DNA |
 | EtOH  | Ethanol  |
@@ -166,35 +166,29 @@ For 96-well Plate:
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
-| 100-1000 ul Pipette | Eppendorf Research Plus Adjustable-Volume Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
-| 10-100 ul Pipette | Eppendorf Research Plus Adjustable-Volume Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
-| 0.1-2.5 ul Pipette | Eppendorf Research Plus Adjustable-Volume Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
-| 10-100 ul 8-Channel Pipette | Eppendorf Research Plus 8 Channel Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
-| 0.5-10 uL 8-Channel Pipette |Eppendorf Research Plus 8 Channel Pipette | Eppendorf | 1 | Can be substituted with any accurate pipette |
-| Thermal cycler | Mastercycler Nexus Thermal Cycler | Eppendorf | 1 | Can be substituted with generic |
-| Microwave | Generic Microwave | Generic Brand | 1 | |
-| Flask | 500 mL Flask | Generic Brand | 1 | Used for mixing agarose gel solution |
-| 1-L Glass Container | 1 L Glass Container | Generic Brand | 1 | Used for storing 1x TBE buffer |
-| Gel Tray & Box | Gel Electrophoresis Box and Tray | Generic Brand | 1 | Can be substituted with generic |
-| Gel Combs | Gel Electrophoresis Combs | Generic Brand | 2 | Can be substituted with generic |
+| 100-1000 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 0.1-2.5 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul 8-Channel Pipette | Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 0.5-10 uL 8-Channel Pipette |Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| Thermal cycler | T100 Thermal Cycler | BIO-RAD | 1 | Can be substituted with generic |
+| Gel Illuminator | PrepOne™ Sapphire Blue LED Illuminator with Photo Hood | Embi Tec | 1 | Can be substituted with generic |
 | **Consumable equipment** |
-| Gloves | Nitrile Gloves, Exam Grade, Powder-free | ULINE | 1 | (box) Can be substituted with generic |
+| Gloves | Nitrile Gloves, Exam Grade, Powder-free | KimTech | 1 | (box) Can be substituted with generic |
 | Kim Wipes | KimWipe Delicate Task Wipers | KimTech | 1 | (box) Can be substituted with generic |
-| 96-well PCR Plate | | Armadillo PCR Plate, 96-well, clear, clear wells | ThermoFisher | 3 | |
-| PCR Plate Seal | AlumaSeal II Sealing Foils for PCR and Cold Storage | VWR | 2 | Can be substituted with generic, can use tightly-fitted strip caps in place of seal |
-| 1000µL Filter Tips | OT-2 Filter Tips, 1000µL | Opentrons | 1 | (box) Can be substituted with generic |
-| 200µL Filter Tips | OT-2 Filter Tips, 200µL | Opentrons | 2 | (boxes) Can be substituted with generic |
-| 10 ul Filter tips | TipOne Pipette Tips, 10 uL | TipOne | 2 | (boxes) Can be substituted with generic |
-| AmpliTaq Gold PCR Mix | AmpliTaq Gold DNA Polymerase 5 mL | ThermoFisher | 1.2 | (mL) |
-| Molecular water | Invitrogen RT-PCR Grade Water | Fisher Scientific | 0.912 | (mL) |
-| Forward Primer - 1391F | 18S 1391F Fluidigm Primer | IDT | 105 | (ul (10uM)) Primer must be diluted from 100uM stocks to 10uM |
-| Reverse Primer - EukBR | 18S EukBR Fluidigm Primer | IDT | 105 | (ul (10uM)) Primer must be diluted from 100uM stocks to 10uM |
-| TBE Buffer (10x) | TBE Buffer 10X Solution, Molecular Biology Grade, UltraPure | Thermo Scientific | 100 | (uL) |
-| Agarose | Agarose LE, Molecular Biology Grade, UltraPure | Thermo Scientific | 4 | (g) |
-| SYBR Safe | SYBR Safe DNA Gel Stain | Invitrogen | 20 | (uL) Light sensitive - do not expose to light |
-| Gel stain loading dye | DNA Gel Loading Dye (6x) | Thermo Scientific | 480 | (ul per plate) |
-| 100bp DNA Ladder | Generuler 100 bp DNA Ladder | Thermo Scientific | 6 | (ul per lane on gel) |
-| Parafilm | Parafilm M Lab Film | Generic | 1 | (roll) Can substitute with generic brand |
+| 96-well PCR Plate | SuperPlate PCR Plate, 96-well, semi-skirted AB2400 | Thermo Scientific | 1 | |
+| PCR Plate Seal | PCR Plate Heat Seal, foil, peelable #1814045 | BIO-RAD | 1 | Can be substituted with generic, can use tightly-fitted strip caps in place of seal |
+| 1000 µL Filter Tips | Pipette Tips RT LTS 1000µL | RAININ | 1 | (box) Can be substituted with generic |
+| 200 µL Filter Tips | Pipette Tips RT LTS 200µL | RAININ | 2 | (boxes) Can be substituted with generic |
+| 20 µL Filter tips | Pipette Tips RT LTS 20µL | RAININ | 2 | (boxes) Can be substituted with generic |
+| AmpliTaq Gold PCR Mix | AmpliTaq Gold™ Fast PCR Master Mix 4390941 | Applied Biosystems | 3960 | (µL) for 96 samples plus a 10% volume buffer |
+| Molecular water | DNase/RNase-Free Water | Zymo | 3009.6 | (µL) for 96 samples plus a 10% volume buffer |
+| Forward Primer - 1391F | 18S 1391F Fluidigm Primer | IDT | 316.8 | (ul (10µM) for 96 samples plus a 10% volume buffer) Primer must be diluted from 100µM stocks to 5µM |
+| Reverse Primer - EukBR | 18S EukBR Fluidigm Primer | IDT | 316.8 | (ul (10µM) for 96 samples plus a 10% volume buffer) Primer must be diluted from 100µM stocks to 5µM |
+| TAE Buffer (10x) | Electrophoresis Grade TAE Buffer 10X Solution | Embi Tec | 100 | (uL) TAE buffer must be diluted from 10X to 1X concentration |
+| Agarose gel 2% | 2% Agarose TAE w/ GelGreen Long Gel, 4(24+1) well | Embi Tec | 1 | Can be substituded with user cast gel |
+| Gel stain loading dye | TriTrack DNA Loading Dye (6X) R1161 | Thermo Scientific | 96 | (ul per plate) |
+| 100bp DNA Ladder | GeneRuler Ready-to-Use DNA Ladders | Thermo Scientific | 2 | (ul per lane on gel) |
 | **Chemicals** |
 | RNase AWAY | RNase AWAY Surface Decontaminant | ThermoFisher Scientific | 1 | (bottle) Used to sterilize lab surfaces and equipment |
 | EtOH | Ethanol | Generic Brand | 1 | (wash bottle) Must be molecular grade ethanol |
@@ -203,8 +197,8 @@ For 96-well Plate:
 | AMPure XP Beads | AMPure XP Bead-Based Reagent | Beckman Coulter | 1 | (kit) |
 | 96-well magnetic plate | MagDTR 96-Well Magnetic Separator | Edge Biosystems Inc | 1 | Can be substituted with generic brand |
 | **(OPTIONAL) Qubit** |
-| Qubit Reagents | Qubit dsDNA Quantification Assay Kit | Invitrogen | 1 | (kit) |
-| Clear Qubit Assay tubes | 0.5 mL thin-walled, polypropylene tubes | Invitrogen | 98 | Must be correct tubes to allow for fluorometer to read concentration |
+| Quant-iT Reagents | Quant-iT™ 1X dsDNA Assay Kits, high sensitivity (HS) Q33232 | Invitrogen | 1 | (kit) can be substituded with Qubit kit |
+| Quant-iT plate reader plate | Corning™ 96-Well Solid Black Polystyrene Microplates | Corning | 1 | Can be substituted with Qubit kit and Qubit tubes |
 
 
 
@@ -245,9 +239,9 @@ Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Awa
 | PCR Step | Temperature | Duration | Repetition |
 | ----- | ----- | ----- | ----- |
 | Intial Denaturation | 95° C | 10 minutes | 1 |
-| Denaturation | 94° C | 45 seconds | 30x |
-| Annealing | 57° C | 30 seconds | 30x |
-| Extension | 68° C | 90 seconds | 30x |
+| Denaturation | 94° C | 45 seconds | 34x |
+| Annealing | 57° C | 30 seconds | 34x |
+| Extension | 68° C | 90 seconds | 34x |
 | Final Extension | 72° C | 10 minutes | 1 |
 | Hold | 4° C | ∞ |  |
 
@@ -272,7 +266,7 @@ A NTC consisting of nuclease-free water was run in singleton for each 96-well PC
 
 ### PCR Clean-up
 
-4. PCR products were purified and size selected using the Agencourt AMPure XP bead system (Beckman Coulter, USA). 
+4. PCR products were purified and size selected using the Agencourt AMPure XP bead system (Beckman Coulter, USA) with a bead concdntration of 1.2X. 
 5. A second agarose gel was run to confirm primer removal and retention of target amplicons after purification. 
 6. Purified products were then quantified using Quant-It Picogreen dsDNA Assay (Life Technologies) on an fmax Molecular Devices Fluorometer with SoftMaxPro v1.3.1
 
