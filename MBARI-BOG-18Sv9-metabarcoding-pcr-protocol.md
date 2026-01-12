@@ -2,31 +2,31 @@
 # MIOP terms
 methodology_category: Omics Analysis
 project: Marine Biodiversity Observation Network (MBON)
-purpose: PCR [OBI:0000415]
+purpose: biodiversity assessment objective [OBI:0001969]
 analyses: PCR [OBI:0000415]
 geographic_location: Monterey Bay [GAZ:00002509]
 broad_scale_environmental_context: marine biome [ENVO:00000447]
 local_environmental_context: upwelling [ENVO:01000005]
 environmental_medium: sea water [ENVO:00002149]
 target: 18S [NCIT:C48172]
-creator: # names separated by commas
+creator: Jacoby Baker, Kobun Truelove, Kathleen Pitz
 materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989], agarose gel electrophoresis system [OBI:0001134]
 skills_required: sterile technique, pipetting skills, standard molecular technique
-time_required: # minutes (integer)
+time_required: 240
 personnel_required: 1
 language: en
-issued: # YYYY-MM-DD
+issued: 2023-11-07
 audience: scientists
-publisher: # institution
-hasVersion: 1
+publisher: Monterey Bay Aquarium Research Institute, Chavez Lab
+hasVersion: 3
 license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
-pcr_0_1: # 1
+pcr_0_1: 1
 thermocycler: Bio-Rad T100
 amplificationReactionVolume: 75
-assay_name: # ssu16sv4v5_emp
+assay_name: ssu18Sv9
 assay_validation: # not provided
 targetTaxonomicAssay: 18S rRNA gene sequencing targeting the V9 region using primers 1391F and EukBr
 targetTaxonomicScope: Eukaryotes with a focus on microbial eukaryotes
@@ -107,7 +107,7 @@ pcr_method_additional: not provided
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | yyyy-mm-dd | Initial release |
+| 3.0.0 | 2023-11-07 | Initial release with new BeBOP format |
 
 ### Acronyms and Abbreviations
 
@@ -124,7 +124,7 @@ pcr_method_additional: not provided
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
 | No Template Control  | A type of negative control during PCR to confirm there is no contamination during the PCR process. Normally nuclease-free water is run in place of DNA on a PCR.  |
-| Content Cell  | Content Cell  |
+|    |    |
 
 ## BACKGROUND
 
@@ -166,13 +166,8 @@ For 96-well Plate:
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
-| 100-1000 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
-| 10-100 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
-| 0.1-2.5 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
-| 10-100 ul 8-Channel Pipette | Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
-| 0.5-10 uL 8-Channel Pipette |Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
-| Thermal cycler | T100 Thermal Cycler | BIO-RAD | 1 | Can be substituted with generic |
-| Gel Illuminator | PrepOne™ Sapphire Blue LED Illuminator with Photo Hood | Embi Tec | 1 | Can be substituted with generic |
+| Thermal cycler | T100 Thermal Cycler | BIO-RAD | 1 |  |
+| micropipettes |  |  |  |  |
 | **Consumable equipment** |
 | Gloves | Nitrile Gloves, Exam Grade, Powder-free | KimTech | 1 | (box) Can be substituted with generic |
 | Kim Wipes | KimWipe Delicate Task Wipers | KimTech | 1 | (box) Can be substituted with generic |
@@ -204,14 +199,11 @@ For 96-well Plate:
 
 ## STANDARD OPERATING PROCEDURE
 
-In the following SOP, please use the exact names of equipment as noted in the table above.
-
-Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
 
 ### Preparation
 
-BEFORE STARTING
-Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Away and pipets with RNase Away. UV pipets, molecular grade water, and tube racks for 20 minutes prior to starting protocol.
+#### BEFORE STARTING
+Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Away and disinfect micropipettes with RNase Away. UV micropipettes, molecular grade water, and tube racks for 20 minutes prior to starting protocol.
 
 
 ### PCR
@@ -228,11 +220,11 @@ Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Awa
 
 | Reagent | Volume | Initial Concentration | final concentration|
 | ----- | ----- | ----- | ----- |
-| DNA extract template | 3 μl | content |content |
-| Amplitaq Gold Fast PCR mastermix (Applied Biosystems) | 37.5 μl | content |content |
-| forward primer | 3 μl | 5 μM |content |
-| reverse primer | 3 μl | 5 μM |content |
-| molecular-biology grade water | 28.5 μl | content |content |
+| DNA extract template | 3 μl |   |  |
+| Amplitaq Gold Fast PCR mastermix (Applied Biosystems) | 37.5 μl |   |  |
+| forward primer | 3 μl | 5 μM |  |
+| reverse primer | 3 μl | 5 μM |  |
+| molecular-biology grade water | 28.5 μl |   |  |
 
 **PCR Cycling Program**: 
 
