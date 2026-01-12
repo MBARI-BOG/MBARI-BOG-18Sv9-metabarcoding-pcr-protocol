@@ -166,8 +166,13 @@ For 96-well Plate:
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
-| Thermal cycler | T100 Thermal Cycler | BIO-RAD | 1 |  |
-| micropipettes |  |  |  |  |
+| 100-1000 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 0.1-2.5 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul 8-Channel Pipette | Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 0.5-10 uL 8-Channel Pipette |Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| Thermal cycler | T100 Thermal Cycler | BIO-RAD | 1 | Can be substituted with generic |
+| Gel Illuminator | PrepOne™ Sapphire Blue LED Illuminator with Photo Hood | Embi Tec | 1 | Can be substituted with generic |
 | **Consumable equipment** |
 | Gloves | Nitrile Gloves, Exam Grade, Powder-free | KimTech | 1 | (box) Can be substituted with generic |
 | Kim Wipes | KimWipe Delicate Task Wipers | KimTech | 1 | (box) Can be substituted with generic |
@@ -203,7 +208,7 @@ For 96-well Plate:
 ### Preparation
 
 #### BEFORE STARTING
-Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Away and disinfect micropipettes with RNase Away. UV micropipettes, molecular grade water, and tube racks for 20 minutes prior to starting protocol.
+Disinfect work surfaces with 10% bleach, followed by 70% ethanol, then RNase Away and disinfect pipettes with RNase Away. UV pipettes, molecular grade water, and tube racks for 20 minutes prior to starting protocol.
 
 
 ### PCR
@@ -264,7 +269,7 @@ A NTC consisting of nuclease-free water was run in singleton for each 96-well PC
 
 ### Basic Troubleshooting Guide
 
-- Identify known issues associated with the procedure, if any.
+>- Identify known issues associated with the procedure, if any.
 - Provide troubleshooting guidelines when available.
 
 ## REFERENCES
@@ -277,4 +282,4 @@ Caporaso, J. G., Lauber, C. L., Walters, W. A., Berg-Lyons, D., Huntley, J., Fie
 
 ## APPENDIX A: DATASHEETS
 
-Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.
+>Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.
